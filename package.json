@@ -2,6 +2,13 @@
   "name": "shopify-themekit",
   "version": "0.0.1",
   "description": "node wrapper for Shopify ThemeKit",
+  "keywords": [
+    "shopify",
+    "theme",
+    "themekit"
+  ],
+  "license": "MIT",
+  "repository": "github:chrisdothtml/shopify-themekit",
   "bin": {
     "shopify-themekit": "bin/cli.js",
     "theme": "bin/cli.js"

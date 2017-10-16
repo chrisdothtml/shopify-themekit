@@ -41,3 +41,7 @@ themekit('upload', options)
 # arguments passed directly to themekit
 theme upload --allenvs
 ```
+
+## License
+
+[MIT](LICENSE)

@@ -1,11 +1,9 @@
-const themekit = require('../lib/index.js')
-
-async function version () {
-  return themekit('version')
-}
+const options2Args = require('./tests/options2Args.js')
+const version = require('./tests/version.js')
 
 function runTests () {
   return Promise.all([
+    options2Args(),
     version()
   ])
 }

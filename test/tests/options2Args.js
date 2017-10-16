@@ -9,14 +9,14 @@ function run () {
     ignore: false
   }
   const output = [
+    'dir/file.txt',
+    'dir/file.js',
     '--allsites',
     '--env=dev',
-    '--no-ignore',
-    'dir/file.txt',
-    'dir/file.js'
+    '--no-ignore'
   ]
 
-  expect(options2Args(input)).to.have.members(output)
+  expect(options2Args(input)).to.have.ordered.members(output)
 }
 
 module.exports = run

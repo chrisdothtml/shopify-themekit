@@ -22,12 +22,12 @@ See [ThemeKit Docs](https://shopify.github.io/themekit/commands) for full list o
 ```javascript
 const themekit = require('shopify-themekit')
 const options = {
-  // --allenvs
-  allenvs: true,
   // --no-ignore
   ignore: false,
   // --store=...
-  store: '...'
+  store: '...',
+  // assets/file.js assets/file.css
+  files: ['assets/file.js', 'assets/file.css']
 }
 
 themekit('upload', options)

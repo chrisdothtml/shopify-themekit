@@ -2,6 +2,9 @@
   "name": "shopify-themekit",
   "version": "0.0.1",
   "description": "node wrapper for Shopify ThemeKit",
+  "engines": {
+    "node": ">=8 <9"
+  },
   "keywords": [
     "shopify",
     "theme",

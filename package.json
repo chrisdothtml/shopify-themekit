@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "node wrapper for Shopify ThemeKit",
   "engines": {
-    "node": ">=8 <9"
+    "node": ">=8"
   },
   "keywords": [
     "shopify",

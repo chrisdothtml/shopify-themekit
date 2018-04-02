@@ -1,5 +1,9 @@
 # shopify-themekit
 
+[![StandardJS](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![travis-ci build status](https://api.travis-ci.org/chrisdothtml/pfs.svg?branch=master)](https://travis-ci.org/chrisdothtml/pfs/branches)
+[![appveyor build status](https://ci.appveyor.com/api/projects/status/ir2eo2tqefcoawvj?svg=true)](https://ci.appveyor.com/project/chrisdothtml/shopify-themekit)
+
 > node wrapper for [Shopify ThemeKit](http://shopify.github.io/themekit)
 
 This is based on [node-themekit](https://github.com/Shopify/node-themekit). I didn't agree with a lot of the ways that package was handling it, so I made my own.

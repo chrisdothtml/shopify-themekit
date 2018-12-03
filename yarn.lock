@@ -1891,9 +1891,10 @@ pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
 
-pfs@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/pfs/-/pfs-2.1.2.tgz#6dacda3a6cc266338fa11400680e306817c8db4a"
+pfs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pfs/-/pfs-3.0.0.tgz#36522bfac64fd8fee1f0ba0cc2897a21e9c25b9e"
+  integrity sha512-duVn146v49N6yI32EY37DpvgykRGvTNx4uncvehTmSHLk93lCUdy0GiH3fLd+Ba8U+ecvabpG+NHqhefVbtzwQ==
 
 pify@^2.0.0:
   version "2.3.0"

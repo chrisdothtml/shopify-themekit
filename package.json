@@ -17,6 +17,10 @@
     "theme": "bin/cli.js"
   },
   "main": "lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
   "scripts": {
     "lint": "standard '**/*.js' --verbose | snazzy",
     "postinstall": "node lib/install.js --initial-install",
